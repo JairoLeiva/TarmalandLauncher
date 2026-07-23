@@ -1,94 +1,93 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
-
 <h1 align="center">Launcher</h1>
-
-<em><h5 align="center">(formerly Electron Launcher)</h5></em>
+<em><h5 align="center">(anteriormente Electron Launcher)</h5></em>
 
 [<p align="center"><img src="https://img.shields.io/github/actions/workflow/status/dscalzi/HeliosLauncher/build.yml?branch=master&style=for-the-badge" alt="gh actions">](https://github.com/dscalzi/HeliosLauncher/actions) [<img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/HeliosLauncher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="winter-is-coming"></p>
 
-<p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
+<p align="center">Únete a servidores modificados sin preocuparte por instalar Java, Forge u otros mods. Nosotros nos encargamos de eso por ti.</p>
 
 ![Screenshot 1](https://i.imgur.com/6o7SmH6.png)
+
 ![Screenshot 2](https://i.imgur.com/x3B34n1.png)
 
-## Features
+## Características
 
-* 🔒 Full account management.
-  * Add multiple accounts and easily switch between them.
-  * Microsoft (OAuth 2.0) + Mojang (Yggdrasil) authentication fully supported.
-  * Credentials are never stored and transmitted directly to Mojang.
-* 📂 Efficient asset management.
-  * Receive client updates as soon as we release them.
-  * Files are validated before launch. Corrupt or incorrect files will be redownloaded.
-* ☕ **Automatic Java validation.**
-  * If you have an incompatible version of Java installed, we'll install the right one *for you*.
-  * You do not need to have Java installed to run the launcher.
-* 📰 News feed natively built into the launcher.
-* ⚙️ Intuitive settings management, including a Java control panel.
-* Supports all of our servers.
-  * Switch between server configurations with ease.
-  * View the player count of the selected server.
-* Automatic updates. That's right, the launcher updates itself.
-*  View the status of Mojang's services.
+* 🔒 Gestión completa de cuentas.
+  * Agrega múltiples cuentas y cambia fácilmente entre ellas.
+  * Autenticación de Microsoft (OAuth 2.0) y Mojang (Yggdrasil) totalmente compatible.
+  * Las credenciales nunca se almacenan y se transmiten directamente a Mojang.
+* 📂 Gestión eficiente de archivos.
+  * Recibe actualizaciones del cliente tan pronto como las publicamos.
+  * Los archivos se validan antes de iniciar. Los archivos corruptos o incorrectos se volverán a descargar.
+* ☕ **Validación automática de Java.**
+  * Si tienes una versión incompatible de Java instalada, instalaremos la correcta *por ti*.
+  * No necesitas tener Java instalado para ejecutar el launcher.
+* 📰 Feed de noticias integrado nativamente en el launcher.
+* ⚙️ Gestión de configuración intuitiva, incluyendo un panel de control de Java.
+* Compatible con todos nuestros servidores.
+  * Cambia entre configuraciones de servidor con facilidad.
+  * Consulta el número de jugadores del servidor seleccionado.
+* Actualizaciones automáticas. Así es, el launcher se actualiza solo.
+*  Consulta el estado de los servicios de Mojang.
 
-This is not an exhaustive list. Download and install the launcher to gauge all it can do!
+Esta no es una lista exhaustiva. ¡Descarga e instala el launcher para conocer todo lo que puede hacer!
 
-#### Need Help? [Check the wiki.][wiki]
+#### ¿Necesitas ayuda? [Consulta la wiki.][wiki]
 
-#### Like the project? Leave a ⭐ star on the repository!
+#### ¿Te gusta el proyecto? ¡Deja una ⭐ en el repositorio!
 
-## Downloads
+## Descargas
 
-You can download from [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
+Puedes descargarlo desde [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
 
-#### Latest Release
+#### Última versión
 
 [![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases/latest)
 
-#### Latest Pre-Release
+#### Última versión preliminar
+
 [![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases)
 
-**Supported Platforms**
+**Plataformas compatibles**
 
-If you download from the [Releases](https://github.com/dscalzi/HeliosLauncher/releases) tab, select the installer for your system.
+Si descargas desde la pestaña [Releases](https://github.com/dscalzi/HeliosLauncher/releases), selecciona el instalador para tu sistema.
 
-| Platform | File |
+| Plataforma | Archivo |
 | -------- | ---- |
 | Windows x64 | `Helios-Launcher-setup-VERSION.exe` |
 | macOS x64 | `Helios-Launcher-setup-VERSION-x64.dmg` |
 | macOS arm64 | `Helios-Launcher-setup-VERSION-arm64.dmg` |
 | Linux x64 | `Helios-Launcher-setup-VERSION.AppImage` |
 
-## Console
+## Consola
 
-To open the console, use the following keybind.
+Para abrir la consola, usa el siguiente atajo de teclado.
 
 ```console
 ctrl + shift + i
 ```
 
-Ensure that you have the console tab selected. Do not paste anything into the console unless you are 100% sure of what it will do. Pasting the wrong thing can expose sensitive information.
+Asegúrate de tener seleccionada la pestaña de consola. No pegues nada en la consola a menos que estés 100% seguro de lo que hará. Pegar algo incorrecto puede exponer información sensible.
 
-#### Export Output to a File
+#### Exportar salida a un archivo
 
-If you want to export the console output, simply right click anywhere on the console and click **Save as..**
+Si deseas exportar la salida de la consola, simplemente haz clic derecho en cualquier lugar de la consola y selecciona **Guardar como...**
 
 ![console example](https://i.imgur.com/T5e73jP.png)
 
+## Desarrollo
 
-## Development
+Esta sección detalla la configuración de un entorno de desarrollo básico.
 
-This section details the setup of a basic developmentment environment.
+### Primeros pasos
 
-### Getting Started
-
-**System Requirements**
+**Requisitos del sistema**
 
 * [Node.js][nodejs] v22
 
 ---
 
-**Clone and Install Dependencies**
+**Clonar e instalar dependencias**
 
 ```console
 > git clone https://github.com/dscalzi/HeliosLauncher.git
@@ -98,7 +97,7 @@ This section details the setup of a basic developmentment environment.
 
 ---
 
-**Launch Application**
+**Iniciar la aplicación**
 
 ```console
 > npm start
@@ -106,31 +105,31 @@ This section details the setup of a basic developmentment environment.
 
 ---
 
-**Build Installers**
+**Compilar instaladores**
 
-To build for your current platform.
+Para compilar para tu plataforma actual.
 
 ```console
 > npm run dist
 ```
 
-Build for a specific platform.
+Compilar para una plataforma específica.
 
-| Platform    | Command              |
+| Plataforma    | Comando              |
 | ----------- | -------------------- |
 | Windows x64 | `npm run dist:win`   |
 | macOS       | `npm run dist:mac`   |
 | Linux x64   | `npm run dist:linux` |
 
-Builds for macOS may not work on Windows/Linux and vice-versa.
+Las compilaciones para macOS pueden no funcionar en Windows/Linux y viceversa.
 
 ---
 
 ### Visual Studio Code
 
-All development of the launcher should be done using [Visual Studio Code][vscode].
+Todo el desarrollo del launcher debe realizarse usando [Visual Studio Code][vscode].
 
-Paste the following into `.vscode/launch.json`
+Pega lo siguiente en `.vscode/launch.json`
 
 ```JSON
 {
@@ -163,42 +162,41 @@ Paste the following into `.vscode/launch.json`
 }
 ```
 
-This adds two debug configurations.
+Esto agrega dos configuraciones de depuración.
 
-#### Debug Main Process
+#### Depurar el proceso principal (Main Process)
 
-This allows you to debug Electron's [main process][mainprocess]. You can debug scripts in the [renderer process][rendererprocess] by opening the DevTools Window.
+Esto te permite depurar el [proceso principal][mainprocess] de Electron. Puedes depurar scripts en el [proceso de renderizado][rendererprocess] abriendo la ventana de DevTools.
 
-#### Debug Renderer Process
+#### Depurar el proceso de renderizado (Renderer Process)
 
-This allows you to debug Electron's [renderer process][rendererprocess]. This requires you to install the [Debugger for Chrome][chromedebugger] extension.
+Esto te permite depurar el [proceso de renderizado][rendererprocess] de Electron. Esto requiere instalar la extensión [Debugger for Chrome][chromedebugger].
 
-Note that you **cannot** open the DevTools window while using this debug configuration. Chromium only allows one debugger, opening another will crash the program.
-
----
-
-### Note on Third-Party Usage
-
-Please give credit to the original author and provide a link to the original source. This is free software, please do at least this much.
-
-For instructions on setting up Microsoft Authentication, see https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md.
+Ten en cuenta que **no puedes** abrir la ventana de DevTools mientras usas esta configuración de depuración. Chromium solo permite un depurador; abrir otro hará que el programa se bloquee.
 
 ---
 
-## Resources
+### Nota sobre el uso por terceros
+
+Por favor, da crédito al autor original y proporciona un enlace a la fuente original. Este es software libre, por favor haz al menos esto.
+
+Para instrucciones sobre cómo configurar la autenticación de Microsoft, consulta https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md.
+
+---
+
+## Recursos
 
 * [Wiki][wiki]
-* [Nebula (Create Distribution.json)][nebula]
-* [v2 Rewrite Branch (Inactive)][v2branch]
+* [Nebula (crear Distribution.json)][nebula]
+* [Rama de reescritura v2 (inactiva)][v2branch]
 
-The best way to contact the developers is on Discord.
+La mejor forma de contactar a los desarrolladores es en Discord.
 
 [![discord](https://discordapp.com/api/guilds/211524927831015424/embed.png?style=banner3)][discord]
 
 ---
 
-### See you ingame.
-
+### Nos vemos en el juego.
 
 [nodejs]: https://nodejs.org/en/ 'Node.js'
 [vscode]: https://code.visualstudio.com/ 'Visual Studio Code'
