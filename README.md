@@ -182,19 +182,7 @@ Por favor, da crédito al autor original y proporciona un enlace a la fuente ori
 
 Para instrucciones sobre cómo configurar la autenticación de Microsoft, consulta https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md.
 
----
 
-## Recursos
-
-* [Wiki][wiki]
-* [Nebula (crear Distribution.json)][nebula]
-* [Rama de reescritura v2 (inactiva)][v2branch]
-
-La mejor forma de contactar a los desarrolladores es en Discord.
-
-[![discord](https://discordapp.com/api/guilds/211524927831015424/embed.png?style=banner3)][discord]
-
----
 
 ### Nos vemos en el juego.
 
